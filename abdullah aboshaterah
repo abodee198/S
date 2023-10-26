@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقع ويب بسيط</title>
+</head>
+<body>
+  <header>
+    <h1>عنوان الموقع</h1>
+    <nav>
+      <a href="#">الصفحة الرئيسية</a>
+      <a href="#">الصفحة الثانية</a>
+      <a href="#">الصفحة الثالثة</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>المحتوى الرئيسي</h2>
+      <p>هذا هو المحتوى الرئيسي للموقع.</p>
+      <p>
+        <button onclick="showMessage()">عرض رسالة</button>
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>حقوق النشر © 2023</p>
+  </footer>
+</body>
+<script>
+  function showMessage() {
+    alert("مرحبًا بكم في موقعنا الإلكتروني!");
+  }
+</script>
+</html>
